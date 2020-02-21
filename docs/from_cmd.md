@@ -97,12 +97,12 @@ $$ \sideset{^1_2}{^3_4}\bigotimes $$
 `()`、`[]` 和 `|` 表示符号本身，使用 `\{\}` 来表示 `{}` 。当要显示大号的括号或分隔符时，要用 `\left` 和 `\right` 命令。
 
 一些特殊的括号：
-|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|
-|\langle|$\langle$|\rangle|$\rangle$|
-|\lceil|$\lceil$|\rceil|$\rceil$|
-|\lfloor|$\lfloor$|\rfloor|$\rfloor$|
-|\lbrace|$\lbrace$|\rbrace|$\rbrace$|
+|  输入   |   显示    |  输入   |   显示    |
+| :-----: | :-------: | :-----: | :-------: |
+| \langle | $\langle$ | \rangle | $\rangle$ |
+| \lceil  | $\lceil$  | \rceil  | $\rceil$  |
+| \lfloor | $\lfloor$ | \rfloor | $\rfloor$ |
+| \lbrace | $\lbrace$ | \rbrace | $\rbrace$ |
 
 
 - 例子：
@@ -211,30 +211,30 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 输入 `\小写希腊字母英文全称` 和 `\首字母大写希腊字母英文全称` 来分别输入小写和大写希腊字母。
 **对于大写希腊字母与现有字母相同的，直接输入大写字母即可。**
 
-|输入|显示|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|\alpha|$\alpha$|A|$A$|\beta|$\beta$|B|$B$|
-|\gamma|$\gamma$|\Gamma|$\Gamma$|\delta|$\delta$|\Delta|$\Delta$|
-|\epsilon|$\epsilon$|E|$E$|\zeta|$\zeta$|Z|$Z$|
-|\eta|$\eta$|H|$H$|\theta|$\theta$|\Theta|$\Theta$|
-|\iota|$\iota$|I|$I$|\kappa|$\kappa$|K|$K$|
-|\lambda|$\lambda$|\Lambda|$\Lambda$|\mu|$\mu$|M|$M$|
-|\nu|$\nu$|N|$N$|\xi|$\xi$|\Xi|$\Xi$|
-|o|$o$|O|$O$|\pi|$\pi$|\Pi|$\Pi$|
-|\rho|$\rho$|P|$P$|\sigma|$\sigma$|\Sigma|$\Sigma$|
-|\tau|$\tau$|T|$T$|\upsilon|$\upsilon$|\Upsilon|$\Upsilon$|
-|\phi|$\phi$|\Phi|$\Phi$|\chi|$\chi$|X|$X$|
-|\psi|$\psi$|\Psi|$\Psi$|\omega|$\omega$|\Omega|$\Omega$|
+|   输入   |    显示    |  输入   |   显示    |   输入   |    显示    |   输入   |    显示    |
+| :------: | :--------: | :-----: | :-------: | :------: | :--------: | :------: | :--------: |
+|  \alpha  |  $\alpha$  |    A    |    $A$    |  \beta   |  $\beta$   |    B     |    $B$     |
+|  \gamma  |  $\gamma$  | \Gamma  | $\Gamma$  |  \delta  |  $\delta$  |  \Delta  |  $\Delta$  |
+| \epsilon | $\epsilon$ |    E    |    $E$    |  \zeta   |  $\zeta$   |    Z     |    $Z$     |
+|   \eta   |   $\eta$   |    H    |    $H$    |  \theta  |  $\theta$  |  \Theta  |  $\Theta$  |
+|  \iota   |  $\iota$   |    I    |    $I$    |  \kappa  |  $\kappa$  |    K     |    $K$     |
+| \lambda  | $\lambda$  | \Lambda | $\Lambda$ |   \mu    |   $\mu$    |    M     |    $M$     |
+|   \nu    |   $\nu$    |    N    |    $N$    |   \xi    |   $\xi$    |   \Xi    |   $\Xi$    |
+|    o     |    $o$     |    O    |    $O$    |   \pi    |   $\pi$    |   \Pi    |   $\Pi$    |
+|   \rho   |   $\rho$   |    P    |    $P$    |  \sigma  |  $\sigma$  |  \Sigma  |  $\Sigma$  |
+|   \tau   |   $\tau$   |    T    |    $T$    | \upsilon | $\upsilon$ | \Upsilon | $\Upsilon$ |
+|   \phi   |   $\phi$   |  \Phi   |  $\Phi$   |   \chi   |   $\chi$   |    X     |    $X$     |
+|   \psi   |   $\psi$   |  \Psi   |  $\Psi$   |  \omega  |  $\omega$  |  \Omega  |  $\Omega$  |
 
 **部分字母有变量专用形式，以 `\var-` 开头。**
 
-|小写形式|大写形式|变量形式|显示|
-|:--:|:--:|:--:|:--:|
-|\epsilon|E|\varepsilon|$\epsilon \mid E \mid \varepsilon$|
-|\theta|\Theta|\vartheta|$\theta \mid \Theta \mid \vartheta$|
-|\rho|P|\varrho|$\rho \mid P \mid \varrho$|
-|\sigma|\Sigma|\varsigma|$\sigma \mid \Sigma \mid \varsigma$|
-|\phi|\Phi|\varphi|$\phi \mid \Phi \mid \varphi$|
+| 小写形式 | 大写形式 |  变量形式   |                显示                 |
+| :------: | :------: | :---------: | :---------------------------------: |
+| \epsilon |    E     | \varepsilon | $\epsilon \mid E \mid \varepsilon$  |
+|  \theta  |  \Theta  |  \vartheta  | $\theta \mid \Theta \mid \vartheta$ |
+|   \rho   |    P     |   \varrho   |     $\rho \mid P \mid \varrho$      |
+|  \sigma  |  \Sigma  |  \varsigma  | $\sigma \mid \Sigma \mid \varsigma$ |
+|   \phi   |   \Phi   |   \varphi   |    $\phi \mid \Phi \mid \varphi$    |
 
 ##12．如何输入其它特殊字符
 
@@ -244,102 +244,102 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 
 ###(1)．关系运算符
 
-|输入|显示|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|\pm|$\pm$|\times|$\times$|\div|$\div$|\mid|$\mid$|
-|\nmid|$\nmid$|\cdot|$\cdot$|\circ|$\circ$|\ast|$\ast$|
-|\bigodot|$\bigodot$|\bigotimes|$\bigotimes$|\bigoplus|$\bigoplus$|\leq|$\leq$|
-|\geq|$\geq$|\neq|$\neq$|\approx|$\approx$|\equiv|$\equiv$|
-|\sum|$\sum$|\prod|$\prod$|\coprod|$\coprod$|\backslash|$\backslash$|
+|   输入   |    显示    |    输入    |     显示     |   输入    |    显示     |    输入    |     显示     |
+| :------: | :--------: | :--------: | :----------: | :-------: | :---------: | :--------: | :----------: |
+|   \pm    |   $\pm$    |   \times   |   $\times$   |   \div    |   $\div$    |    \mid    |    $\mid$    |
+|  \nmid   |  $\nmid$   |   \cdot    |   $\cdot$    |   \circ   |   $\circ$   |    \ast    |    $\ast$    |
+| \bigodot | $\bigodot$ | \bigotimes | $\bigotimes$ | \bigoplus | $\bigoplus$ |    \leq    |    $\leq$    |
+|   \geq   |   $\geq$   |    \neq    |    $\neq$    |  \approx  |  $\approx$  |   \equiv   |   $\equiv$   |
+|   \sum   |   $\sum$   |   \prod    |   $\prod$    |  \coprod  |  $\coprod$  | \backslash | $\backslash$ |
 
 ###(2)．集合运算符
 
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|\emptyset|$\emptyset$|\in|$\in$|\notin|$\notin$|
-|\subset|$\subset$|\supset|$\supset$|\subseteq|$\subseteq$|
-|\supseteq|$\supseteq$|\bigcap|$\bigcap$|\bigcup|$\bigcup$|
-|\bigvee|$\bigvee$|\bigwedge|$\bigwedge$|\biguplus|$\biguplus$|
+|   输入    |    显示     |   输入    |    显示     |   输入    |    显示     |
+| :-------: | :---------: | :-------: | :---------: | :-------: | :---------: |
+| \emptyset | $\emptyset$ |    \in    |    $\in$    |  \notin   |  $\notin$   |
+|  \subset  |  $\subset$  |  \supset  |  $\supset$  | \subseteq | $\subseteq$ |
+| \supseteq | $\supseteq$ |  \bigcap  |  $\bigcap$  |  \bigcup  |  $\bigcup$  |
+|  \bigvee  |  $\bigvee$  | \bigwedge | $\bigwedge$ | \biguplus | $\biguplus$ |
 
 ###(3)．对数运算符
 
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|\log|$\log$|\lg|$\lg$|\ln|$\ln$|
+| 输入  |  显示  | 输入  | 显示  | 输入  | 显示  |
+| :---: | :----: | :---: | :---: | :---: | :---: |
+| \log  | $\log$ |  \lg  | $\lg$ |  \ln  | $\ln$ |
 
 ###(4)．三角运算符
 
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|30^\circ|$30^\circ$|\bot|$\bot$|\angle A|$\angle A$|
-|\sin|$\sin$|\cos|$\cos$|\tan|$\tan$|
-|\csc|$\csc$|\sec|$\sec$|\cot|$\cot$|
+|   输入   |    显示    | 输入  |  显示  |   输入   |    显示    |
+| :------: | :--------: | :---: | :----: | :------: | :--------: |
+| 30^\circ | $30^\circ$ | \bot  | $\bot$ | \angle A | $\angle A$ |
+|   \sin   |   $\sin$   | \cos  | $\cos$ |   \tan   |   $\tan$   |
+|   \csc   |   $\csc$   | \sec  | $\sec$ |   \cot   |   $\cot$   |
 
 ###(5)．微积分运算符
 
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|\int|$\int$|\iint|$\iint$|\iiint|$\iiint$|
-|\iiiint|$\iiiint$|\oint|$\oint$|\prime|$\prime$|
-|\lim|$\lim$|\infty|$\infty$|\nabla|$\nabla$|
+|  输入   |   显示    |  输入  |   显示   |  输入  |   显示   |
+| :-----: | :-------: | :----: | :------: | :----: | :------: |
+|  \int   |  $\int$   | \iint  | $\iint$  | \iiint | $\iiint$ |
+| \iiiint | $\iiiint$ | \oint  | $\oint$  | \prime | $\prime$ |
+|  \lim   |  $\lim$   | \infty | $\infty$ | \nabla | $\nabla$ |
 
 ###(6)．逻辑运算符
 
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|\because|$\because$|\therefore|$\therefore$|
-|\forall|$\forall$|\exists|$\exists$|\not\subset|$\not\subset$|
-|\not<|$\not<$|\not>|$\not>$|\not=|$\not=$|
+|   输入   |    显示    |    输入    |     显示     |    输入     |     显示      |
+| :------: | :--------: | :--------: | :----------: | :---------: | :-----------: |
+| \because | $\because$ | \therefore | $\therefore$ |
+| \forall  | $\forall$  |  \exists   |  $\exists$   | \not\subset | $\not\subset$ |
+|  \not<   |  $\not<$   |   \not>    |   $\not>$    |    \not=    |    $\not=$    |
 
 ###(7)．戴帽符号
 
-|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|
-|\hat{xy}|$\hat{xy}$|\widehat{xyz}|$\widehat{xyz}$|
-|\tilde{xy}|$\tilde{xy}$|\widetilde{xyz}|$\widetilde{xyz}$|
-|\check{x}|$\check{x}$|\breve{y}|$\breve{y}$|
-|\grave{x}|$\grave{x}$|\acute{y}|$\acute{y}$|
+|    输入    |     显示     |      输入       |       显示        |
+| :--------: | :----------: | :-------------: | :---------------: |
+|  \hat{xy}  |  $\hat{xy}$  |  \widehat{xyz}  |  $\widehat{xyz}$  |
+| \tilde{xy} | $\tilde{xy}$ | \widetilde{xyz} | $\widetilde{xyz}$ |
+| \check{x}  | $\check{x}$  |    \breve{y}    |    $\breve{y}$    |
+| \grave{x}  | $\grave{x}$  |    \acute{y}    |    $\acute{y}$    |
 
 
 
 ###(8)．连线符号
-|输入|显示|
-|:--:|:--:|
-|\fbox{a+b+c+d}|$\fbox{a+b+c+d}$|
-|\overleftarrow{a+b+c+d}|$\overleftarrow{a+b+c+d}$|
-|\overrightarrow{a+b+c+d}|$\overrightarrow{a+b+c+d}$|
-|\overleftrightarrow{a+b+c+d}|$\overleftrightarrow{a+b+c+d}$|
-|\underleftarrow{a+b+c+d}|$\underleftarrow{a+b+c+d}$|
-|\underrightarrow{a+b+c+d}|$\underrightarrow{a+b+c+d}$|
-|\underleftrightarrow{a+b+c+d}|$\underleftrightarrow{a+b+c+d}$|
-|\overline{a+b+c+d}|$\overline{a+b+c+d}$|
-|\underline{a+b+c+d}|$\underline{a+b+c+d}$|
-|\overbrace{a+b+c+d}^{Sample}|$\overbrace{a+b+c+d}^{Sample}$|
-|\underbrace{a+b+c+d}_{Sample}|$\underbrace{a+b+c+d}_{Sample}$|
-|\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}|$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$|
-|\underbrace{a\cdot a\cdots a}_{b\text{ times}}|$\underbrace{a\cdot a\cdots a}_{b\text{ times}}$|
-|\underrightarrow{1℃/min} | $\underrightarrow{1℃/min}$ |
+|                      输入                      |                       显示                       |
+| :--------------------------------------------: | :----------------------------------------------: |
+|                 \fbox{a+b+c+d}                 |                 $\fbox{a+b+c+d}$                 |
+|            \overleftarrow{a+b+c+d}             |            $\overleftarrow{a+b+c+d}$             |
+|            \overrightarrow{a+b+c+d}            |            $\overrightarrow{a+b+c+d}$            |
+|          \overleftrightarrow{a+b+c+d}          |          $\overleftrightarrow{a+b+c+d}$          |
+|            \underleftarrow{a+b+c+d}            |            $\underleftarrow{a+b+c+d}$            |
+|           \underrightarrow{a+b+c+d}            |           $\underrightarrow{a+b+c+d}$            |
+|         \underleftrightarrow{a+b+c+d}          |         $\underleftrightarrow{a+b+c+d}$          |
+|               \overline{a+b+c+d}               |               $\overline{a+b+c+d}$               |
+|              \underline{a+b+c+d}               |              $\underline{a+b+c+d}$               |
+|          \overbrace{a+b+c+d}^{Sample}          |          $\overbrace{a+b+c+d}^{Sample}$          |
+|         \underbrace{a+b+c+d}_{Sample}          |         $\underbrace{a+b+c+d}_{Sample}$          |
+|  \overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}  |  $\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$  |
+| \underbrace{a\cdot a\cdots a}_{b\text{ times}} | $\underbrace{a\cdot a\cdots a}_{b\text{ times}}$ |
+|            \underrightarrow{1℃/min}            |            $\underrightarrow{1℃/min}$            |
 
 ###(9)．箭头符号
 
 - 推荐使用符号：
-|输入|显示|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|\to|$\to$|\mapsto|$\mapsto$|
-|\implies|$\implies$|\iff|$\iff$|\impliedby|$\impliedby$|
+|   输入   |    显示    |  输入   |   显示    |    输入    |     显示     |
+| :------: | :--------: | :-----: | :-------: | :--------: | :----------: |
+|   \to    |   $\to$    | \mapsto | $\mapsto$ |
+| \implies | $\implies$ |  \iff   |  $\iff$   | \impliedby | $\impliedby$ |
 
 
 - 其它可用符号：
-|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|
-|\uparrow|$\uparrow$|\Uparrow|$\Uparrow$|
-|\downarrow|$\downarrow$|\Downarrow|$\Downarrow$|
-|\leftarrow|$\leftarrow$|\Leftarrow|$\Leftarrow$|
-|\rightarrow|$\rightarrow$|\Rightarrow|$\Rightarrow$|
-|\leftrightarrow|$\leftrightarrow$|\Leftrightarrow|$\Leftrightarrow$|
-|\longleftarrow|$\longleftarrow$|\Longleftarrow|$\Longleftarrow$|
-|\longrightarrow|$\longrightarrow$|\Longrightarrow|$\Longrightarrow$|
-|\longleftrightarrow|$\longleftrightarrow$|\Longleftrightarrow|$\Longleftrightarrow$|
+|        输入         |         显示          |        输入         |         显示          |
+| :-----------------: | :-------------------: | :-----------------: | :-------------------: |
+|      \uparrow       |      $\uparrow$       |      \Uparrow       |      $\Uparrow$       |
+|     \downarrow      |     $\downarrow$      |     \Downarrow      |     $\Downarrow$      |
+|     \leftarrow      |     $\leftarrow$      |     \Leftarrow      |     $\Leftarrow$      |
+|     \rightarrow     |     $\rightarrow$     |     \Rightarrow     |     $\Rightarrow$     |
+|   \leftrightarrow   |   $\leftrightarrow$   |   \Leftrightarrow   |   $\Leftrightarrow$   |
+|   \longleftarrow    |   $\longleftarrow$    |   \Longleftarrow    |   $\Longleftarrow$    |
+|   \longrightarrow   |   $\longrightarrow$   |   \Longrightarrow   |   $\Longrightarrow$   |
+| \longleftrightarrow | $\longleftrightarrow$ | \Longleftrightarrow | $\Longleftrightarrow$ |
 
 ##13．如何进行字体转换
 
@@ -347,14 +347,14 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 
 示例中 **全部大写** 的字体仅大写可用。
 
-|输入|说明|显示|输入|说明|显示|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|\rm|罗马体|$\rm{Sample}$|\cal|花体|$\cal{SAMPLE}$|
-|\it|意大利体|$\it{Sample}$|\Bbb|黑板粗体|$\Bbb{SAMPLE}$|
-|\bf|粗体|$\bf{Sample}$|\mit|数学斜体|$\mit{SAMPLE}$|
-|\sf|等线体|$\sf{Sample}$|\scr|手写体|$\scr{SAMPLE}$|
-|\tt|打字机体|$\tt{Sample}$|
-|\frak|旧德式字体|$\frak{Sample}$|
+| 输入  |    说明    |      显示       | 输入  |   说明   |      显示      |
+| :---: | :--------: | :-------------: | :---: | :------: | :------------: |  |
+|  \rm  |   罗马体   |  $\rm{Sample}$  | \cal  |   花体   | $\cal{SAMPLE}$ |
+|  \it  |  意大利体  |  $\it{Sample}$  | \Bbb  | 黑板粗体 | $\Bbb{SAMPLE}$ |
+|  \bf  |    粗体    |  $\bf{Sample}$  | \mit  | 数学斜体 | $\mit{SAMPLE}$ |
+|  \sf  |   等线体   |  $\sf{Sample}$  | \scr  |  手写体  | $\scr{SAMPLE}$ |
+|  \tt  |  打字机体  |  $\tt{Sample}$  |
+| \frak | 旧德式字体 | $\frak{Sample}$ |
 
 
 转换字体十分常用，例如在积分中：
@@ -510,16 +510,16 @@ $$ a \, b \mid a \; b \mid a \quad b \mid a \qquad b $$
 
 对于较旧的浏览器（HTML4与CSS2），以下颜色是被支持的：
 
-|输入|显示|输入|显示|
-|:--:|:--:|:--:|:--:|
-|black|$\color{black}{text}$|grey|$\color{grey}{text}$|
-|silver|$\color{silver}{text}$|white|$\color{white}{text}$|
-|maroon|$\color{maroon}{text}$|red|$\color{red}{text}$|
-|yellow|$\color{yellow}{text}$|lime|$\color{lime}{text}$|
-|olive|$\color{olive}{text}$|green|$\color{green}{text}$|
-|teal|$\color{teal}{text}$|auqa|$\color{auqa}{text}$|
-|blue|$\color{blue}{text}$|navy|$\color{navy}{text}$|
-|purple|$\color{purple}{text}$|fuchsia|$\color{fuchsia}{text}$|
+|  输入  |          显示          |  输入   |          显示           |
+| :----: | :--------------------: | :-----: | :---------------------: |
+| black  | $\color{black}{text}$  |  grey   |  $\color{grey}{text}$   |
+| silver | $\color{silver}{text}$ |  white  |  $\color{white}{text}$  |
+| maroon | $\color{maroon}{text}$ |   red   |   $\color{red}{text}$   |
+| yellow | $\color{yellow}{text}$ |  lime   |  $\color{lime}{text}$   |
+| olive  | $\color{olive}{text}$  |  green  |  $\color{green}{text}$  |
+|  teal  |  $\color{teal}{text}$  |  auqa   |  $\color{auqa}{text}$   |
+|  blue  |  $\color{blue}{text}$  |  navy   |  $\color{navy}{text}$   |
+| purple | $\color{purple}{text}$ | fuchsia | $\color{fuchsia}{text}$ |
 
 对于较新的浏览器（HTML5与CSS3），额外的124种颜色将被支持：
 
@@ -701,9 +701,9 @@ $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $
 ```
 
 - 显示：
-|matrix|pmatrix|bmatrix|Bmatrix|vmatrix|Vmatrix|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|$ \begin{matrix} 1 & 2 \\ 3 & 4 \\ \end{matrix} $|$ \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ \end{pmatrix} $|$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ \end{bmatrix} $|$ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \\ \end{Bmatrix} $|$ \begin{vmatrix} 1 & 2 \\ 3 & 4 \\ \end{vmatrix} $|$ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $|
+|                      matrix                       |                       pmatrix                       |                       bmatrix                       |                       Bmatrix                       |                       vmatrix                       |                       Vmatrix                       |
+| :-----------------------------------------------: | :-------------------------------------------------: | :-------------------------------------------------: | :-------------------------------------------------: | :-------------------------------------------------: | :-------------------------------------------------: |
+| $ \begin{matrix} 1 & 2 \\ 3 & 4 \\ \end{matrix} $ | $ \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ \end{pmatrix} $ | $ \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ \end{bmatrix} $ | $ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \\ \end{Bmatrix} $ | $ \begin{vmatrix} 1 & 2 \\ 3 & 4 \\ \end{vmatrix} $ | $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $ |
 　　　　
 ##3．如何输入带省略符号的矩阵
 

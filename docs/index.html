@@ -41,25 +41,8 @@
     </script>
     <script src="//unpkg.com/docsify"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            showProcessingMessages: true,
-            messageStyle: "none",
-            extensions: ["tex2jax.js"],
-            jax: ["input/TeX", "output/HTML-CSS"],
-            tex2jax: {
-                inlineMath:  [ ["$", "$"] ],
-                displayMath: [ ["$$","$$"] ],
-                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
-                ignoreClass:"comment-content"
-            },
-            "HTML-CSS": {
-                showMathMenu: false
-            }
-        });
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-        </script>
-    <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
     <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
     <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
     <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
