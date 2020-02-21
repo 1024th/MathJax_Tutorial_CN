@@ -1,2 +1,3 @@
 # MathJax_Tutorial_CN
-完备的LaTeX公式中文手册（MathJax环境下）
+
+本文为 MathJax 在 Markdown 环境下的语法指引。

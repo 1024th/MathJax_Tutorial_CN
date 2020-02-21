@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <style>
+        body {
+            overflow: auto !important;
+            /*解决无法上下滚动（好奇怪的bug）*/
+        }
+    </style>
 </head>
+
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: ''
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            name: '',
+            repo: ''
+        }
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script>
+        window.$docsify = {
+            loadSidebar: true, // 侧边栏
+            search: { // 搜索
+                //maxAge: 1000, // 过期时间，单位毫秒，默认一天
+                //paths: 'auto', // or 'auto'
+                placeholder: '搜索',
+                noData: '找不到结果',
+                // 搜索标题的最大程级, 1 - 6
+                depth: 4
+            }
+        }
+    </script>
+    <script src="//unpkg.com/docsify"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: true,
+            messageStyle: "none",
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath:  [ ["$", "$"] ],
+                displayMath: [ ["$$","$$"] ],
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+                ignoreClass:"comment-content"
+            },
+            "HTML-CSS": {
+                showMathMenu: false
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        </script>
+    <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+
+    <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        const gitalk = new Gitalk({
+            clientID: 'e99100fc9a17cea9d9e7',
+            clientSecret: '    df1d2e894cb2072f99cd142790b3ae9a5a3ccb16',
+            repo: 'MathJax_Tutorial_CN',
+            owner: '1024th',
+            admin: ['1024th'],
+            // facebook-like distraction free mode
+            distractionFreeMode: false
+        })
+    </script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
 </body>
+
 </html>
