@@ -22,12 +22,9 @@
     <script>
         window.$docsify = {
             name: '',
-            repo: ''
-        }
-    </script>
-    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-    <script>
-        window.$docsify = {
+            repo: '',
+            maxLevel: 6,
+            subMaxLevel: 3,
             loadSidebar: true, // 侧边栏
             search: { // 搜索
                 //maxAge: 1000, // 过期时间，单位毫秒，默认一天
@@ -35,11 +32,11 @@
                 placeholder: '搜索',
                 noData: '找不到结果',
                 // 搜索标题的最大程级, 1 - 6
-                depth: 4
+                depth: 6
             }
         }
     </script>
-    <script src="//unpkg.com/docsify"></script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
