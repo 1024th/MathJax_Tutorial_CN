@@ -23,7 +23,7 @@
   docsify serve
   ```
 
-  默认端口 [http://localhost:3000](http://localhost:3000) 。直接编辑 `docs/xx.md` 就能更新网站内容。可以让实时的预览。
+  默认端口 [http://localhost:3000](http://localhost:3000) 。直接编辑 `docs/xx.md` 就能实时更新网站内容。
 
 `docs` 内文件说明：
 
