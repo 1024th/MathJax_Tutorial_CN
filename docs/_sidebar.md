@@ -1,5 +1,4 @@
 * 基础
-  * [Cmd Markdown 公式指导手册](from_cmd.md)
   * [快速入门](quickstart.md)
 
 * 按年级分类的符号检索
