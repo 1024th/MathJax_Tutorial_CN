@@ -1,3 +1,3 @@
 # 快速入门
 
-Cmd 那篇教程写的很好，想按着那个写一个简单的入门教程。
+本文参考 [Cmd Markdown 公式指导手册](https://www.zybuluo.com/codeep/note/163962)
