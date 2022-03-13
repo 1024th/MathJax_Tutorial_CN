@@ -7,5 +7,10 @@
   * [高中](high_school.md)
   * [大学](university.md)
 
-* 进阶
-  * [完整文档](document.md)
+* 完整文档
+  * [基础语法](full_doc/basic.md)
+  * [函数、符号及特殊字符](full_doc/symbols.md)
+  * [环境](full_doc/env.md)
+  * [字体](full_doc/fonts.md)
+  * [颜色](full_doc/colors.md)
+  * [外部链接](full_doc/links.md)

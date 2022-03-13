@@ -47,4 +47,4 @@ $(\dfrac 13)$ `(\frac 13)` $\Leftrightarrow$ $\left( \dfrac 13 \right)$ `\left( 
 
 $\pi$ `\pi`
 
-更多希腊字母参见[这里](document.md#希腊字母)
+更多希腊字母参见 [这里](full_doc/fonts.md#希腊字母)。
